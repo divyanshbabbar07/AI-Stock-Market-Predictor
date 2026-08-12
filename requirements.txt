@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+plotly
+matplotlib
+scikit-learn
+joblib
+yfinance
+google-genai
+image 
+datetime
+textwrap
+path
