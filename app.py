@@ -1,7 +1,12 @@
 from PIL import Image
 import streamlit as st
+from pathlib import Path
+from PIL import Image
 
-logo = Image.open(r"C:\Users\Divyansh Babbar\Downloads\SMP PROJECT\assets\assets\logo.png")
+BASE_DIR = Path(__file__).resolve().parent
+logo_path = BASE_DIR / "assets" / "assets" / "logo.png"
+
+logo = Image.open(logo_path)
 
 st.sidebar.image(logo, width=180)
 
